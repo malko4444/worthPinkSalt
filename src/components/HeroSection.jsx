@@ -18,7 +18,7 @@ function HeroSection() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % images.length)
-    }, 3000)
+    }, 4000)
 
     return () => clearInterval(interval)
   }, [])
@@ -53,6 +53,7 @@ function HeroSection() {
           {t('consultation')}
         </button>
       </div>
+      
     </div>
   )
 }
