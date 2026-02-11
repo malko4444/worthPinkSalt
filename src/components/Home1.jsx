@@ -86,7 +86,7 @@ function Home1() {
                         )}
                     </h1>
 
-                    <p className='text-pink-700 text-sm lg:text-base leading-relaxed'>
+                    <p className='text-green-700 text-sm lg:text-base leading-relaxed'>
                         {t('about1.desc1')}
                         <br /><br />
                         {t('about1.desc2')}
